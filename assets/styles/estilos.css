@@ -1,0 +1,11 @@
+.banner{
+    background-image: url('../img/robert-duvall-rememora-el-padrino.jpg');
+    padding: 10% 30% 40% 20%;
+    background-position: top center;
+    background-size: cover;
+}
+.text{
+    background-color: rgb(228, 218, 218);
+    color: crimson;
+    
+}
