@@ -121,6 +121,8 @@ let peliculas=[
     //función: se reutiliza y se llama las veces que quiera...
 
 ]
+//traer ID del html
+let fila=document.getElementById("fila")
 
 peliculas.forEach(function(pelicula){
     console.log(pelicula.Nombre)
@@ -130,5 +132,49 @@ peliculas.forEach(function(pelicula){
     console.log(pelicula.Sinopsis)
     console.log(pelicula.Clasificacion)
     console.log(pelicula.Idioma)
+
+    //TRAVERSING (crear etiquetas de html desde JS)
+    //1. creamos una columna para cada pelicula
+    let columna=document.createElement("div")
+    columna.classList.add("col")
+    //2. creamos una tarjeta para cada pelicula
+    let tarjeta=document.createElement("div")
+    tarjeta.classList.add("card","h-100")
+    //3. creamos una imagen para cada pelicula
+    let poster=document.createElement("img")
+    poster.classList.add("card-img-top")
+    poster.src=pelicula.Poster
+    //4. creamos nombre para cada pelicula
+    let nombre=document.createElement("h3")
+    nombre.classList.add("card-title")
+    //cambiar el contenido
+    nombre.textContent=pelicula.Nombre
+    //5. creamos el genero de cada pelicula
+    let genero=document.createElement("h4")
+    genero.classList.add("card-text")
+    genero.textContent= "Género: "+ pelicula.Genero
+    //6. creamos el idioma a cada pelicula
+    let idioma=document.createElement("h6")
+    idioma.classList.add("fw-bold")
+    idioma.textContent=pelicula.Idioma
+    //7.creamos la sipnosis
+    let sinopsis=document.createElement("p")
+    sinopsis.classList.add("d-none")
+    sinopsis.textContent=pelicula.Sinopsis
+
+    // Padres e hijos
+    tarjeta.appendChild(poster)
+    tarjeta.appendChild(nombre)
+    tarjeta.appendChild(genero)
+    tarjeta.appendChild(idioma)
+    tarjeta.appendChild(sinopsis)
+    columna.appendChild(tarjeta)
+    fila.appendChild(columna)
+    
+
 })
+//DETETANTANDO SELECCION DE UN PELICULA
+//palabra resrvada
+fila.addEventListener("click",function(){})
+    alert("Esta seleccionando una peliculas")
 
