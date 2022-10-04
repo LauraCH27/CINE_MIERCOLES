@@ -47,12 +47,14 @@ fila.addEventListener("click",function(evento){
     peliculaSeleccionada.idioma=(evento.target.parentElement.querySelector('h5').textContent)//idioma
     peliculaSeleccionada.duracion=(evento.target.parentElement.querySelector('h6').textContent)//duracion
     peliculaSeleccionada.clasificacion=(evento.target.parentElement.querySelector('h7').textContent)
-    peliculaSeleccionada.sipnosis=(evento.target.parentElement.querySelector('p').textContent)
+    peliculaSeleccionada.sinopsis=(evento.target.parentElement.querySelector('p').textContent)
+    peliculaSeleccionada.director=(evento.target.parentElement.querySelector('.director').textContent)
+    peliculaSeleccionada.actores=(evento.target.parentElement.querySelector('.actores').textContent)
     console.log(peliculaSeleccionada)
     //LLAMANDO A LA MEMORIA DEL NAVEGADOR
     localStorage.setItem("peliculaSeleccionada",JSON.stringify(peliculaSeleccionada))
     //REDIRECCIONA A OTRA VISTA
-   // window.location.href="./src/views/ampliarInfoPelicula.html"
+    window.location.href="./src/views/ampliarInfoPelicula.html"
     
 })
 let peliculaSeleccionada2={}

@@ -7,8 +7,7 @@ export let peliculass=[
         Sinopsis:"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final.",
         Clasificacion:"18+",
         Idioma:"Español",
-        Director:"Harold De Vasten",
-        Actores:"Gilberto Obando, Héctor Paredes, Héctor Mejía"
+        
     },
     {
         Nombre:"El Arbol Rojo",
@@ -18,10 +17,7 @@ export let peliculass=[
         Sinopsis:"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final.",
         Clasificacion:"18+",
         Idioma:"Español",
-        Director:"Harold De Vasten",
-        Actores:"Gilberto Obando, Héctor Paredes, Héctor Mejía"
-        
-        
+    
 
     },
     {
@@ -32,8 +28,7 @@ export let peliculass=[
         Sinopsis:"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final.",
         Clasificacion:"18+",
         Idioma:"Español",
-        Director:"Harold De Vasten",
-        Actores:"Gilberto Obando, Héctor Paredes, Héctor Mejía"
+    
 
     },
     {
@@ -44,8 +39,7 @@ export let peliculass=[
         Sinopsis:"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final.",
         Clasificacion:"18+",
         Idioma:"Español",
-        Director:"Harold De Vasten",
-        Actores:"Gilberto Obando, Héctor Paredes, Héctor Mejía"
+        
     },
     {
         Nombre:"NCacería Reales",
@@ -55,8 +49,6 @@ export let peliculass=[
         Sinopsis:"Cinco asesinos a sueldo se encuentran a bordo de un tren bala que viaja de Tokio a Morioka con unas pocas paradas intermedias. Descubren que sus misiones no son ajenas entre sí. La pregunta es quién saldrá vivo del tren y qué les espera en la estación final.",
         Clasificacion:"18+",
         Idioma:"Español",
-        Director:"Harold De Vasten",
-        Actores:"Gilberto Obando, Héctor Paredes, Héctor Mejía"
     }]
 
 

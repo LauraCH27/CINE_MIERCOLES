@@ -12,3 +12,11 @@
 .fondo{
     background-color: black;
 }
+.linea{
+  border-top: 40px solid black;
+  height: 2px;
+  max-width: 600px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}

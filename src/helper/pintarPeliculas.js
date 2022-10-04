@@ -41,11 +41,16 @@ export function pintarPelicula(peliculas){
         let clasificacion=document.createElement("h7")
         clasificacion.classList.add("fw-bold")
         clasificacion.textContent="Clasificación: "+ pelicula.Clasificacion
-    
         //7.creamos la sipnosis
-        let sinopsis=document.createElement("p")
+        let sipnosis=document.createElement("p")
         //sinopsis.classList.add("d-none")
-        sinopsis.textContent=pelicula.Sinopsis
+        sipnosis.textContent=pelicula.Sinopsis
+        let director=document.createElement("h6")
+        director.classList.add("director")
+        director.textContent="Director: "+pelicula.Director
+        let actores=document.createElement("h6")
+        actores.textContent="Actores: "+ pelicula.Actores
+        actores.classList.add("actores")
     
         // Padres e hijos
         tarjeta.appendChild(poster)
@@ -54,7 +59,9 @@ export function pintarPelicula(peliculas){
         tarjeta.appendChild(idioma)
         tarjeta.appendChild(duracion)
         tarjeta.appendChild(clasificacion)
-        tarjeta.appendChild(sinopsis)
+        tarjeta.appendChild(director)
+        tarjeta.appendChild(actores)
+        tarjeta.appendChild(sipnosis)
         columna.appendChild(tarjeta)
         fila.appendChild(columna)
         
@@ -105,7 +112,7 @@ export function pintarPelicula(peliculas){
     let sinopsis=document.createElement("p")
     //sinopsis.classList.add("d-none")
     sinopsis.textContent=peli.Sinopsis
-
+    
     // Padres e hijos
     tarjeta.appendChild(poster)
     tarjeta.appendChild(nombre)
@@ -118,5 +125,6 @@ export function pintarPelicula(peliculas){
     cartelera.appendChild(columna)
     })
 }
+
 
 
